@@ -24,3 +24,6 @@ zuul:
       service-id: customer
   host:
     socket-timeout-millis: 30000
+    connect-timeout-millis: 5000
+    max-per-route-connections: 10000
+    max-total-connections: 5000
